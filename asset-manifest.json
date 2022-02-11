@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/shashanksinghal/static/css/main.2fd365cb.css",
+    "main.js": "/shashanksinghal/static/js/main.44be61f3.js",
+    "static/js/787.f46b24b8.chunk.js": "/shashanksinghal/static/js/787.f46b24b8.chunk.js",
+    "static/media/Me.jpg": "/shashanksinghal/static/media/Me.05b75465202beff99cea.jpg",
+    "static/media/Capture13.JPG": "/shashanksinghal/static/media/Capture13.c05231a28ff1e65b261f.JPG",
+    "static/media/Calculator.jpg": "/shashanksinghal/static/media/Calculator.8d2b27d4ef913d01d976.jpg",
+    "static/media/Capture15.JPG": "/shashanksinghal/static/media/Capture15.2085bb91fe8a5280e9e6.JPG",
+    "static/media/logo7.svg": "/shashanksinghal/static/media/logo7.7ea2d17a35e40fee65fd8437570f2b0c.svg",
+    "static/media/Capture4.JPG": "/shashanksinghal/static/media/Capture4.4ae43164dc9bb1cc11fa.JPG",
+    "static/media/bg-1.jpg": "/shashanksinghal/static/media/bg-1.ff802ca531e9bec4674d.jpg",
+    "static/media/Capture1.JPG": "/shashanksinghal/static/media/Capture1.2d65ef328475fd446157.JPG",
+    "static/media/logo.svg": "/shashanksinghal/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/shashanksinghal/index.html",
+    "main.2fd365cb.css.map": "/shashanksinghal/static/css/main.2fd365cb.css.map",
+    "main.44be61f3.js.map": "/shashanksinghal/static/js/main.44be61f3.js.map",
+    "787.f46b24b8.chunk.js.map": "/shashanksinghal/static/js/787.f46b24b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fd365cb.css",
+    "static/js/main.44be61f3.js"
+  ]
+}
