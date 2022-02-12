@@ -498,12 +498,40 @@ nav ul li {
   text-align: justify;
 }
 
-.js-img{
+.react-img {
+  padding-right: 2.25rem;
+  margin-top: 2.375rem;
   display: flex;
-  position: relative;
-  float:right;
-  direction: rtl;
+  width: 47%;
 }
+
+.js-img{
+    padding-right: 0.25rem;
+    margin-top: -18rem;
+    width: 18%;
+    margin-right: 13.813rem;
+    display: flex;
+
+}
+
+.html5-img {
+  padding-right: 0.25rem;
+  margin-top: 32.688rem;
+  width: 20%;
+  margin-left: -0.188;
+  display: flex;
+}
+
+.css3-img {
+  padding-right: 0.25rem;
+  margin-top: -6.688rem;
+  width: 16%;
+  margin-left: 15.75rem;
+  display: flex;
+}
+
+
+
 
 /* .react-img { */
   /* width:12.25rem; */
@@ -605,6 +633,38 @@ nav ul li {
    direction: ltr;
    width:100%;
  }
+ .react-img {
+  padding-right: 2.25rem;
+  margin-top: -1.625rem;
+  margin-bottom: 2rem;
+  display: flex;
+  width: 115%;
+}
+
+.js-img{
+  padding-right: 0.25rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  width: 59%;
+  margin-left: 3.813rem;
+  display: flex;
+}
+
+.html5-img {
+  padding-right: 0.25rem;
+  margin-top: 4.688rem;
+  width: 64%;
+  margin-left: -0.188;
+  display: flex;
+}
+
+.css3-img {
+  padding-right: 0.25rem;
+  margin-top: -2.688rem;
+  width: 46%;
+  margin-left: 10.75rem;
+  display: flex;
+}
 }
 
 /* ***************** Portfolio ***************************  */

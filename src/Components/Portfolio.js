@@ -55,8 +55,8 @@ function Portfolio() {
                 This simple yet very useful and well-maintained site is developed with HTML tags. The whole project is designed in HTML ,CSS and JavaScript language . Different tags have been used for the development of the project. It is quite easy to use and handle. There is no any error and warning contents in the project.
                 </p>
                 {/* <b>Netlify:</b><a className = "hyper-link" onClick = {() => window.open("https://tenanttruths.netlify.app/")}>https://tenanttruths.netlify.app/</a> */}
-                <b className="link-desc">University-Wesite : </b> <a className="hyper-link" onClick={() => window.open("https://sha-shank-883.github.io/shashanksinghal/")}>https://sha-shank-883.github.io/shashanksinghal/</a><br></br>
-                <b className="link-desc">GitHub : </b> <a className="hyper-link" onClick={() => window.open("https://github.com/sha-shank-883/shashanksinghal")}>https://github.com/sha-shank-883/shashanksinghal</a>
+                <b className="link-desc">University-Wesite : </b> <a className="hyper-link" onClick={() => window.open("https://sha-shank-883.github.io/Universitywebsite/")}>https://sha-shank-883.github.io/Universitywebsite/</a><br></br>
+                <b className="link-desc">GitHub : </b> <a className="hyper-link" onClick={() => window.open("https://github.com/sha-shank-883/Universitywebsite")}>https://github.com/sha-shank-883/Universitywebsite</a>
             </>
 
         )

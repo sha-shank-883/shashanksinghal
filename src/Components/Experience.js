@@ -1,8 +1,8 @@
 // import React from "react"
-// import js from "../js.png";
-// import html5 from "../html5.png";
-// import react from "../logo.svg"
-// import css3 from "../css3.png"
+import js from "../js.png";
+import html5 from "../html5.png";
+import react from "../logo.svg"
+import css3 from "../css3.png"
 
 function Experience() {
     return (
@@ -17,7 +17,6 @@ function Experience() {
                     <div className="timeline-content">
                         <h3> React Application (September 2021 – Working)</h3>
                         <p className="firstjob">
-                            {/* <img className = "react-img " src = {react} alt = "react" /> */}
                             <br></br>● Fresher in React Developer with hands-on experience in identifying web-based user interactions along with designing & implementing highly-responsive user interface components by deploying React concepts.
                             <br></br>● Proficient in translating designs & wireframes into high-quality code, and writing application interface code via Javascript and ReactJS workflows.
                             <br></br>● Adept at monitoring & maintaining frontend performance and troubleshooting & debugging the same to bolster overall performance.
@@ -25,9 +24,9 @@ function Experience() {
                             <br></br>● understanding a basic react concepts of hooks , rendering, props , virtual DOM, router, usestate, etc.
                             <br></br>● Knowledge of Threejs js used to create and display animated 3D computer graphics in a web browser using WebGL.
                         </p>
-                        {/* <img className = "js-img timeline-block timeline-block-right" src = {js} alt = "JavaScript" /> */}
                     </div>
                 </div>
+                            <img className = "react-img" src = {react} alt = "react" />
                 {/* second job */}
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
@@ -46,14 +45,13 @@ function Experience() {
                         </p>
                     </div>
                 </div>
+                        <img className = "js-img timeline-block timeline-block-right" src = {js} alt = "JavaScript" />
                 {/* third job */}
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> HTML and CSS (March 2021 - May 2021)</h3>
                         <p className="thirdjob">
-                            {/* <img className = "html5-img " src = {html5} alt = "html5" />  */}
-                            {/* <img className = "css3-img " src = {css3} alt = "css3" /> */}
                             <br></br>● Created a simple yet very useful and well-maintained site is developed with HTML tags. The whole project is designed in HTML ,CSS and JavaScript language.
                             <br></br>● Different tags have been used for the development in the project.
                             <br></br>● Functioning with all essential and usefull tags in HTML.
@@ -65,6 +63,8 @@ function Experience() {
                         </p>
                     </div>
                 </div>
+                            <img className = "html5-img " src = {html5} alt = "html5" /> 
+                            <img className = "css3-img " src = {css3} alt = "css3" />
                 {/* fourth job */}
 
             </div>
