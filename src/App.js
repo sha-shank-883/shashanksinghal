@@ -4,7 +4,6 @@ import Particles from 'react-particles-js';
 import Navbar from './Components/Navbar';
 import Header from './Components/Header';
 import Aboutme from './Components/Aboutme';
-// import Resume from './Components/Resume';
 import Experience from './Components/Experience';
 import Portfolio from './Components/Portfolio';
 import Form from './Components/Contact';

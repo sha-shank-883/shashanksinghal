@@ -1,8 +1,10 @@
 // import React from "react"
 import js from "../js.png";
-import html5 from "../html5.png";
+import Html from '../Components/three-scene'
+import Css from '../Components/Css3d'
+// import html5 from "../html5.png";
 import react from "../logo.svg"
-import css3 from "../css3.png"
+// import css3 from "../css3.png"
 
 function Experience() {
     return (
@@ -12,7 +14,6 @@ function Experience() {
             </div>
             <div className="container experience-wrapper">
                 <div className="timeline-block timeline-block-right">
-                    {/* <img className = "react-img timeline-block timeline-block-right" src = {react} alt = "react" /> */}
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3> React Application (September 2021 – Working)</h3>
@@ -33,7 +34,7 @@ function Experience() {
                     <div className="timeline-content ">
                         <h3>JavaScript (Jun 2021 – August 2021)</h3>
                         <p className="secondjob">
-                            {/* <img className = "js-img " src = {js} alt = "JavaScript" /> */}
+                            
                             <br></br>● Fresher in JavaScript Developer with necessary perception and heavily Knowledge of javascript.
                             <br></br>● Worked on a weather App Using Javascript features, the user can estimate the current-day climatic probability and determine whether the day will be cloudy or sunny. In the software, the user can write down the name of any city in the world. 
                             <br></br>● This project also includes a significant amount of javascript to ensure the project’s functionality Scope.                            
@@ -58,13 +59,15 @@ function Experience() {
                             <br></br>● The syntax and forms of the language, Specificity, inheritance, and the Cascade, CSS units and values and functional notationsBox model and margin collapse are used in project.
                             <br></br>● They containing block, Stacking and block-formatting contexts, Initial, computed, used, and actual values.
                             <br></br>● CSS shorthand properties, CSS Flexible Box Layout, CSS Grid Layout, CSS selectors, Media queries, Animation are used in project.
-                            {/* <br></br>●  */}
-                            {/* <br></br>●  */}
+                            {/* <br></br>● */}
+                            {/* <br></br>● */}
+                             <Html />
+                             <Css />
                         </p>
                     </div>
                 </div>
-                            <img className = "html5-img " src = {html5} alt = "html5" /> 
-                            <img className = "css3-img " src = {css3} alt = "css3" />
+                            {/* <img className = "html5-img " src = {html5} alt = "html5" />  */}
+                            {/* <img className = "css3-img " src = {css3} alt = "css3" /> */}
                 {/* fourth job */}
 
             </div>
