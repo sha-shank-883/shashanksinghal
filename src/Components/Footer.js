@@ -52,27 +52,27 @@ const Footer = () => {
                         <div className= "social-icons col-lg-5 col-md-5 col-sm-6 align-items-center">
                             <div className = " Social-id d-flex justify-content-right">
 
-                                <div data-aos="fade-left" className="contact-linkedin">
-                                 <SocialIcon data-aos="fade-left" target="_blank" url="https://www.linkedin.com/in/shashank-singhal-" fgColor="white" bgColor=""/>
+                                <div data-aos="zoom-in" className="contact-linkedin">
+                                 <SocialIcon data-aos="zoom-in" target="_blank" url="https://www.linkedin.com/in/shashank-singhal-" fgColor="white" bgColor=""/>
                                  <a className="linkedin-a" href="https://www.linkedin.com/in/shashank-singhal-" target="_blank" rel="noreferrer">LinkedIn</a>
                                 </div>
 
-                                <div data-aos="fade-left" className="contact-github">
-                                 <SocialIcon data-aos="fade-left" target="_blank" url="https://github.com/sha-shank-883" fgColor="white" bgColor=""/>
+                                <div data-aos="zoom-in" className="contact-github">
+                                 <SocialIcon data-aos="zoom-in" target="_blank" url="https://github.com/sha-shank-883" fgColor="white" bgColor=""/>
                                  <a className="linkedin-a" href="https://github.com/sha-shank-883" target="_blank" rel="noreferrer">Github</a>
                                 </div>
 
-                            <div data-aos="fade-left" className="contact-facebook">
-                                 <SocialIcon data-aos="fade-left" target="_blank" url="https://www.facebook.com/profile.php?id=100009010986550" fgColor="white" bgColor=""/>
+                            <div data-aos="zoom-in" className="contact-facebook">
+                                 <SocialIcon data-aos="zoom-in" target="_blank" url="https://www.facebook.com/profile.php?id=100009010986550" fgColor="white" bgColor=""/>
                                  <a className="linkedin-a" href="https://www.facebook.com/profile.php?id=100009010986550" target="_blank" rel="noreferrer">Facebook</a>
                                 </div>
-                                <div data-aos="fade-left" className="contact-instagram">
-                                 <SocialIcon data-aos="fade-left"target="_blank" url="https://www.instagram.com/shashank_singhal_883/" fgColor="white" bgColor="transparent"/>
+                                <div data-aos="zoom-in" className="contact-instagram">
+                                 <SocialIcon data-aos="zoom-in"target="_blank" url="https://www.instagram.com/shashank_singhal_883/" fgColor="white" bgColor="transparent"/>
                                  <a className="linkedin-a" href="https://www.instagram.com/shashank_singhal_883/" target="_blank" rel="noreferrer">Instagram</a>
                                 </div>
 
-                                <div data-aos="fade-left" className="contact-twitter">
-                                 <SocialIcon data-aos="fade-left" target="_blank" url="https://twitter.com/shashan23126715?t=yPf4uIHXLrgxc2sRK0Hj5Q&s=08" fgColor="white" bgColor=""/>
+                                <div data-aos="zoom-in" className="contact-twitter">
+                                 <SocialIcon data-aos="zoom-in" target="_blank" url="https://twitter.com/shashan23126715?t=yPf4uIHXLrgxc2sRK0Hj5Q&s=08" fgColor="white" bgColor=""/>
                                  <a className="linkedin-a" href="https://twitter.com/shashan23126715?t=yPf4uIHXLrgxc2sRK0Hj5Q&s=08" target="_blank" rel="noreferrer">twitter</a>
                                 </div>
                             </div>
