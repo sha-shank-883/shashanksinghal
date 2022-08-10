@@ -1,8 +1,14 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form"
+import Aos from "aos";
+import "aos/dist/aos.css";
+import {useEffect } from "react";
 
-function Contact() {
+  const Contact = () => {
+    useEffect(() => {
+      Aos.init({ duration: 2000 });
+    }, []);
   const [successMessage, setSuccessMessage] = useState("");
   const { register, handleSubmit, formState: { errors }} = useForm();
 
@@ -52,7 +58,7 @@ function Contact() {
          
                {/* Name Input */}
               <div className="text-center">
-                <input type="text"
+                <input data-aos="fade-left" type="text"
                 color="transparent"
                 className="form-control" 
                 placeholder="Name" 
@@ -68,7 +74,7 @@ function Contact() {
 
           
                 {/* Email Input */}
-                <input type="text"
+                <input data-aos="fade-left" type="text"
                 className="form-control"
                 placeholder="Email"
                 {...register("email", { required: "Please enter valid Email ID", pattern: /^\S+@\S+$/i })} />
@@ -83,7 +89,7 @@ function Contact() {
 
               <div className="text-center">
               
-                <input type="tel" 
+                <input data-aos="fade-left" type="tel" 
                 className="form-control" 
                 placeholder="Mobile number" 
                 {...register("phone", { required: "Please enter valid Mobile no.",pattern: /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/, minLength: 10, maxLength: 12 })} />
@@ -96,7 +102,7 @@ function Contact() {
               {/* Subject Input */}
               <div className="text-center">
 
-                <input type="text" 
+                <input data-aos="fade-left" type="text" 
                 className="form-control" 
                 placeholder="Subject " 
                 {...register("Subject", { required: true })} 
@@ -113,7 +119,8 @@ function Contact() {
           <div className="col-md-6 col-xs-12">
             <div className="text-center">
 
-              <textarea
+                <textarea
+                  data-aos="fade-up"
                 type="text"
                  className="form-control" 
                  placeholder="message " 
@@ -126,7 +133,7 @@ function Contact() {
             <span className="error-messages">
               {errors.message && errors.message.message}
             </span>
-            <button className="btn btn-primary" type="submit"> Send </button>
+            <button data-aos="fade-up" className="btn btn-primary" type="submit"> Send </button>
           </div>
       </div>
     </form>

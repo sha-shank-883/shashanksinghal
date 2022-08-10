@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
@@ -12,15 +13,21 @@ import { faSearchPlus } from "@fortawesome/free-solid-svg-icons"
 // REACT POP UP BOX
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import {useEffect } from "react";
 
-function Portfolio() {
-    
+    const Portfolio= () => {
+        useEffect(() => {
+          Aos.init({ duration: 2000 });
+        }, []);
     // React-Website
     const openPopupboxReactWebsite = () => {
         const content = (
 
             <>
-                <img className="portfolio-image-popupbox" src={Capture1} alt="React website Application" />
+                
+                <img data-aos="fade-up" className="portfolio-image-popupbox" src={Capture1} alt="React website Application" />
                 <p className="popup-desc">
                     A react single page application for bussiness purpose , this application allows users to review my projects and contact with me to grow thier bussines.
                 </p>
@@ -34,13 +41,14 @@ function Portfolio() {
     }
 
 
-    const popupboxConfigReactWebsite = {
+        const popupboxConfigReactWebsite = {
         titleBar: {
             enable: false,
             // text: "React Website"
         },
         fadeIn: true,
         fadeInSpeed: 500
+        
     }
 
 
@@ -50,7 +58,7 @@ function Portfolio() {
         const content = (
 
             <>
-                <img className="portfolio-image-popupbox" src={Capture4} alt="UniversityWebsite Application" />
+                <img data-aos="fade-up" className="portfolio-image-popupbox" src={Capture4} alt="UniversityWebsite Application" />
                 <p className="popup-desc">
                 This simple yet very useful and well-maintained site is developed with HTML tags. The whole project is designed in HTML ,CSS and JavaScript language . Different tags have been used for the development of the project. It is quite easy to use and handle. There is no any error and warning contents in the project.
                 </p>
@@ -79,7 +87,7 @@ function Portfolio() {
         const content = (
 
             <>
-                <img className="portfolio-image-popupbox" src={Capture13} alt="WeatherApp Application" />
+                <img data-aos="fade-up" className="portfolio-image-popupbox" src={Capture13} alt="WeatherApp Application" />
                 <p className="popup-desc">
                  Weather App Using Javascript features, the user can estimate the current-day climatic probability and determine whether the day will be cloudy or sunny. In the software, the user can write down the name of any city in the world. This project also includes a significant amount of javascript to ensure the project’s functionality.
                 </p>
@@ -109,7 +117,7 @@ function Portfolio() {
         const content = (
 
             <>
-                <img className="portfolio-image-popupbox" src={Capture15} alt="Todo App" />
+                <img data-aos="fade-up" className="portfolio-image-popupbox" src={Capture15} alt="Todo App" />
                 <p className="popup-desc">
                 A react app that allows users to add, edit, and delete tasks they want to work on, and save in local storage either the app opens in browser or not.
                 </p>
@@ -139,7 +147,7 @@ function Portfolio() {
         const content = (
 
             <>
-                <img className="portfolio-image-popupbox" src={Calculator} alt="Calculator " />
+                <img data-aos="fade-up" className="portfolio-image-popupbox" src={Calculator} alt="Calculator " />
                 <p className="popup-desc">
                 A simple Calculator made with JavaScript language.
                 </p>
@@ -175,8 +183,8 @@ function Portfolio() {
 
                 
 
-                    <div className="portfolio-image-box" onClick={openPopupboxReactWebsite}>
-                        <img className="portfolio-image" src={Capture1} alt="React-app Project" />
+                    <div data-aos="fade-up" className="portfolio-image-box" onClick={openPopupboxReactWebsite}>
+                        <img  className="portfolio-image" src={Capture1} alt="React-app Project" />
                         <p className="legend">React-App</p>
                         
                         <div className="overflow"></div>
@@ -185,7 +193,7 @@ function Portfolio() {
                     </div>
 
                     {/* second project */}
-                    <div className="portfolio-image-box" onClick={openPopupboxUniversityWebsite}>
+                    <div data-aos="fade-up" className="portfolio-image-box" onClick={openPopupboxUniversityWebsite}>
                         <img className="portfolio-image" src={Capture4} alt="university-website Project" />
                         <p className="legend">University Website </p>
                         <div className="overflow"></div>
@@ -193,7 +201,7 @@ function Portfolio() {
                     </div>
                     {/* third project */}
 
-                    <div className="portfolio-image-box" onClick={openPopupboxWeatherApp}>
+                    <div data-aos="fade-up" className="portfolio-image-box" onClick={openPopupboxWeatherApp}>
                         <img className="portfolio-image" src={Capture13} alt="weather-app Project" />
                         <p className="legend">Weather-App</p>
                         <div className="overflow"></div>
@@ -201,7 +209,7 @@ function Portfolio() {
                     </div>
                     {/* fourth project */}
 
-                    <div className="portfolio-image-box" onClick={openPopupboxCapture15}>
+                    <div data-aos="fade-up" className="portfolio-image-box" onClick={openPopupboxCapture15}>
                         <img className="portfolio-image" src={Capture15} alt="weather-app Project" />
                         <p className="legend">Todo-App</p>
                         <div className="overflow"></div>
@@ -209,7 +217,7 @@ function Portfolio() {
                     </div>
                     {/* fifth project */}
 
-                    <div className="portfolio-image-box" onClick={openPopupboxCapture14}>
+                    <div data-aos="fade-up" className="portfolio-image-box" onClick={openPopupboxCapture14}>
                         <img className="portfolio-image" src={Calculator} alt="weather-app Project" />
                         <p className="legend">Calculator</p>
                         <div className="overflow"></div>

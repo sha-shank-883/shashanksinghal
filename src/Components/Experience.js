@@ -2,11 +2,17 @@
 import js from "../js.png";
 import Html from '../Components/three-scene'
 import Css from '../Components/Css3d'
+import Aos from "aos";
+import "aos/dist/aos.css";
+import {useEffect } from "react";
 // import html5 from "../html5.png";
 import react from "../logo.svg"
 // import css3 from "../css3.png"
 
-function Experience() {
+    const Experience = () => {
+        useEffect(() => {
+          Aos.init({ duration: 2000 });
+        }, []);
     return (
         <div id="experience" className="experience">
             <div className="d-flex justify-content-center my-5">
@@ -16,8 +22,8 @@ function Experience() {
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3> React Application (September 2021 – Working)</h3>
-                        <p className="firstjob">
+                        <h3 data-aos="fade-left"> React Application (September 2021 – Working)</h3>
+                        <p data-aos="fade-left" className="firstjob">
                             <br></br>● Fresher in React Developer with hands-on experience in identifying web-based user interactions along with designing & implementing highly-responsive user interface components by deploying React concepts.
                             <br></br>● Proficient in translating designs & wireframes into high-quality code, and writing application interface code via Javascript and ReactJS workflows.
                             <br></br>● Adept at monitoring & maintaining frontend performance and troubleshooting & debugging the same to bolster overall performance.
@@ -27,13 +33,13 @@ function Experience() {
                         </p>
                     </div>
                 </div>
-                            <img className = "react-img" src = {react} alt = "react" />
+                            <img data-aos="fade-right" className = "react-img" src = {react} alt = "react" />
                 {/* second job */}
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content ">
-                        <h3>JavaScript (Jun 2021 – August 2021)</h3>
-                        <p className="secondjob">
+                        <h3 data-aos="fade-right">JavaScript (Jun 2021 – August 2021)</h3>
+                        <p data-aos="fade-right" className="secondjob">
                             
                             <br></br>● Fresher in JavaScript Developer with necessary perception and heavily Knowledge of javascript.
                             <br></br>● Worked on a weather App Using Javascript features, the user can estimate the current-day climatic probability and determine whether the day will be cloudy or sunny. In the software, the user can write down the name of any city in the world. 
@@ -46,13 +52,13 @@ function Experience() {
                         </p>
                     </div>
                 </div>
-                        <img className = "js-img timeline-block timeline-block-right" src = {js} alt = "JavaScript" />
+                        <img data-aos="fade-left" className = "js-img timeline-block timeline-block-right" src = {js} alt = "JavaScript" />
                 {/* third job */}
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3> HTML and CSS (March 2021 - May 2021)</h3>
-                        <p className="thirdjob">
+                        <h3 data-aos="fade-left"> HTML and CSS (March 2021 - May 2021)</h3>
+                        <p data-aos="fade-left" className="thirdjob">
                             <br></br>● Created a simple yet very useful and well-maintained site is developed with HTML tags. The whole project is designed in HTML ,CSS and JavaScript language.
                             <br></br>● Different tags have been used for the development in the project.
                             <br></br>● Functioning with all essential and usefull tags in HTML.
@@ -61,8 +67,8 @@ function Experience() {
                             <br></br>● CSS shorthand properties, CSS Flexible Box Layout, CSS Grid Layout, CSS selectors, Media queries, Animation are used in project.
                             {/* <br></br>● */}
                             {/* <br></br>● */}
-                             <Html />
-                             <Css />
+                             <Html data-aos="fade-up" />
+                             <Css data-aos="fade-up"/>
                         </p>
                     </div>
                 </div>
