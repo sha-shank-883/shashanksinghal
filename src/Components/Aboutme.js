@@ -9,8 +9,10 @@ import {useEffect } from "react";
 
 const AboutMe = () => {
     useEffect(() => {
-      Aos.init({ duration: 2000 });
+        Aos.init({ duration: 2000 });
+        
     }, []);
+    Aos.refresh();
     return(
         <div id = "about" className= "container py-5">
             <div className = "row">
@@ -20,7 +22,7 @@ const AboutMe = () => {
                         <img  className = "profile-img" src = {Me} alt = "author" />
                         {/* <img className = "profile-img" src = {Me} alt = "author" /> */}
                    
-
+                       
                     </div>
                 </div>
                 <div className= "col-lg-6 col-xm-12">
@@ -34,7 +36,8 @@ I enjoy using my obsessive attention to detail, my unequivocal love for making t
 That's why I’m excited to make a big impact at a high growth company. <br></br>
 
             <a href='Resume.pdf' download='Resume.pdf'>
-                <button data-aos="fade-left" className="btn-about-heading"> Get Resume</button>
+                <button data-aos="fade-up" className="btn-about-heading"> Get Resume</button>
+                
             </a>
                     </p>
                         {/* <iframe className={filetype} width="100%" height="600" frameborder="0" src={`https://docs.google.com/gview?url=${file_url}&embedded=true`}><button Resume> Resume </button></iframe> */}
