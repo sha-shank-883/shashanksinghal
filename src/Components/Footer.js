@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-scroll";
 import { SocialIcon } from "react-social-icons";
-// import Aos from "aos";
-// import "aos/dist/aos.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 // import { useEffect } from "react";
 
 const Footer = () => {
-  //   useEffect(() => {
-  //     Aos.init({ duration: 2000 });
-  //   }, []);
+  Aos.init({ duration: 2000 });
+  Aos.refresh();
+
   return (
     <div className="footer">
       <div className="container">
@@ -33,17 +33,30 @@ const Footer = () => {
           <div className="f-link col-lg-3 col-md-2 col-sm-6">
             <div className="row">
               <div className="col">
-                <Link smooth={true} to="home" className="footer-nav" href="#">
+                <Link
+                  data-aos="fade-up"
+                  smooth={true}
+                  to="home"
+                  className="footer-nav"
+                  href="#"
+                >
                   Home
                 </Link>
                 <br />
 
-                <Link smooth={true} to="about" className="footer-nav" href="#">
+                <Link
+                  data-aos="fade-up"
+                  smooth={true}
+                  to="about"
+                  className="footer-nav"
+                  href="#"
+                >
                   About Me
                 </Link>
                 <br />
 
                 <Link
+                  data-aos="fade-up"
                   smooth={true}
                   to="experience"
                   className="footer-nav"
@@ -54,6 +67,7 @@ const Footer = () => {
               </div>
               <div className="col">
                 <Link
+                  data-aos="fade-up"
                   smooth={true}
                   to="portfolio"
                   className="footer-nav"
@@ -64,6 +78,7 @@ const Footer = () => {
                 <br />
 
                 <Link
+                  data-aos="fade-up"
                   smooth={true}
                   to="contact"
                   className="footer-nav"
@@ -76,8 +91,9 @@ const Footer = () => {
           </div>
           <div className="social-icons col-lg-5 col-md-5 col-sm-6 align-items-center">
             <div className=" Social-id d-flex justify-content-right">
-              <div className="contact-linkedin">
+              <div data-aos="fade-left" className="contact-linkedin">
                 <SocialIcon
+                  data-aos="fade-left"
                   target="_blank"
                   url="https://www.linkedin.com/in/shashank-singhal-"
                   fgColor="white"
@@ -93,7 +109,7 @@ const Footer = () => {
                 </a>
               </div>
 
-              <div className="contact-github">
+              <div data-aos="fade-left" className="contact-github">
                 <SocialIcon
                   target="_blank"
                   url="https://github.com/sha-shank-883"
@@ -110,7 +126,7 @@ const Footer = () => {
                 </a>
               </div>
 
-              <div className="contact-facebook">
+              <div data-aos="fade-left" className="contact-facebook">
                 <SocialIcon
                   target="_blank"
                   url="https://www.facebook.com/profile.php?id=100009010986550"
@@ -126,7 +142,7 @@ const Footer = () => {
                   Facebook
                 </a>
               </div>
-              <div className="contact-instagram">
+              <div data-aos="fade-left" className="contact-instagram">
                 <SocialIcon
                   target="_blank"
                   url="https://www.instagram.com/shashank_singhal_883/"
@@ -143,7 +159,7 @@ const Footer = () => {
                 </a>
               </div>
 
-              <div className="contact-twitter">
+              <div data-aos="fade-left" className="contact-twitter">
                 <SocialIcon
                   target="_blank"
                   url="https://twitter.com/shashan23126715?t=yPf4uIHXLrgxc2sRK0Hj5Q&s=08"

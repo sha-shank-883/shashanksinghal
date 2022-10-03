@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
-// import Aos from "aos";
-// import "aos/dist/aos.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 // import {useEffect } from "react";
 
 const Contact = () => {
-  // useEffect(() => {
-  //   Aos.init({ duration: 2000 });
-  // }, []);
+  Aos.init({ duration: 2000 });
+  Aos.refresh();
+
   const [successMessage, setSuccessMessage] = useState("");
   const {
     register,
@@ -47,7 +47,7 @@ const Contact = () => {
 
   return (
     <div id="contact" className="contact">
-      <div className="text-center">
+      <div data-aos="fade-up" className="text-center">
         <h1> Contact Me</h1>
         <p>Please provide your details below</p>
         <span className="success-message">{successMessage}</span>
@@ -60,7 +60,7 @@ const Contact = () => {
               {/* Name Input */}
               <div className="text-center">
                 <input
-                  // data-aos="fade-left"
+                  data-aos="fade-left"
                   type="text"
                   color="transparent"
                   className="form-control"
@@ -82,7 +82,7 @@ const Contact = () => {
               <div className="text-center">
                 {/* Email Input */}
                 <input
-                  // data-aos="fade-left"
+                  data-aos="fade-left"
                   type="text"
                   className="form-control"
                   placeholder="Email"
@@ -101,7 +101,7 @@ const Contact = () => {
 
               <div className="text-center">
                 <input
-                  // data-aos="fade-left"
+                  data-aos="fade-left"
                   type="tel"
                   className="form-control"
                   placeholder="Mobile number"
@@ -122,7 +122,7 @@ const Contact = () => {
               {/* Subject Input */}
               <div className="text-center">
                 <input
-                  // data-aos="fade-left"
+                  data-aos="fade-left"
                   type="text"
                   className="form-control"
                   placeholder="Subject "
@@ -139,7 +139,7 @@ const Contact = () => {
             <div className="col-md-6 col-xs-12">
               <div className="text-center">
                 <textarea
-                  // data-aos="fade-up"
+                  data-aos="fade-up"
                   type="text"
                   className="form-control"
                   placeholder="message "
@@ -151,7 +151,7 @@ const Contact = () => {
                 {errors.message && errors.message.message}
               </span>
               <button
-                // data-aos="fade-up"
+                data-aos="fade-up"
                 className="btn btn-primary"
                 type="submit"
               >

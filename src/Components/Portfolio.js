@@ -13,20 +13,19 @@ import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 // REACT POP UP BOX
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
-// import Aos from "aos";
-// import "aos/dist/aos.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 // import { useEffect } from "react";
 
 const Portfolio = () => {
-  // useEffect(() => {
-  //   Aos.init({ duration: 2000 });
-  // }, []);
-  // React-Website
+  Aos.init({ duration: 2000 });
+  Aos.refresh();
+
   const openPopupboxReactWebsite = () => {
     const content = (
       <>
         <img
-          // data-aos="fade-up"
+          data-aos="fade-up"
           className="portfolio-image-popupbox"
           src={Capture1}
           alt="React website Application"
@@ -77,7 +76,7 @@ const Portfolio = () => {
     const content = (
       <>
         <img
-          // data-aos="fade-up"
+          data-aos="fade-up"
           className="portfolio-image-popupbox"
           src={Capture4}
           alt="UniversityWebsite Application"
@@ -128,7 +127,7 @@ const Portfolio = () => {
     const content = (
       <>
         <img
-          // data-aos="fade-up"
+          data-aos="fade-up"
           className="portfolio-image-popupbox"
           src={Capture13}
           alt="WeatherApp Application"
@@ -179,7 +178,7 @@ const Portfolio = () => {
     const content = (
       <>
         <img
-          // data-aos="fade-up"
+          data-aos="fade-up"
           className="portfolio-image-popupbox"
           src={Capture15}
           alt="Todo App"
@@ -228,7 +227,7 @@ const Portfolio = () => {
     const content = (
       <>
         <img
-          // data-aos="fade-up"
+          data-aos="fade-up"
           className="portfolio-image-popupbox"
           src={Calculator}
           alt="Calculator "
@@ -273,7 +272,9 @@ const Portfolio = () => {
   return (
     <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
-        <h1 className="text-uppercase text-center py-5">Portfolio</h1>
+        <h1 data-aos="fade-up" className="text-uppercase text-center py-5">
+          Portfolio
+        </h1>
         <div className="image-box-wrapper row justify-content-center ">
           {/* first project */}
           <Carousel
@@ -283,7 +284,7 @@ const Portfolio = () => {
             width={"90%"}
           >
             <div
-              // data-aos="fade-up"
+              data-aos="fade-up"
               className="portfolio-image-box"
               onClick={openPopupboxReactWebsite}
             >
@@ -300,7 +301,7 @@ const Portfolio = () => {
 
             {/* second project */}
             <div
-              // data-aos="fade-up"
+              data-aos="fade-up"
               className="portfolio-image-box"
               onClick={openPopupboxUniversityWebsite}
             >
@@ -316,7 +317,7 @@ const Portfolio = () => {
             {/* third project */}
 
             <div
-              // data-aos="fade-up"
+              data-aos="fade-up"
               className="portfolio-image-box"
               onClick={openPopupboxWeatherApp}
             >
@@ -332,7 +333,7 @@ const Portfolio = () => {
             {/* fourth project */}
 
             <div
-              // data-aos="fade-up"
+              data-aos="fade-up"
               className="portfolio-image-box"
               onClick={openPopupboxCapture15}
             >
@@ -348,7 +349,7 @@ const Portfolio = () => {
             {/* fifth project */}
 
             <div
-              // data-aos="fade-up"
+              data-aos="fade-up"
               className="portfolio-image-box"
               onClick={openPopupboxCapture14}
             >

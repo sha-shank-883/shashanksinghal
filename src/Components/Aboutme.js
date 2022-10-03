@@ -8,11 +8,9 @@ import "aos/dist/aos.css";
 // const {filetype} = ".docx";
 
 const AboutMe = () => {
-  // useEffect(() => {
   Aos.init({ duration: 2000 });
   Aos.refresh();
-  // }, []);
-  //   Aos.refresh();
+
   return (
     <div id="about" className="container py-5">
       <div className="row">

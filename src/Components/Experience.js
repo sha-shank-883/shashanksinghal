@@ -2,7 +2,7 @@
 import js from "../js.png";
 import Html from "../Components/three-scene";
 import Css from "../Components/Css3d";
-// import Aos from "aos";
+import Aos from "aos";
 import "aos/dist/aos.css";
 // import { useEffect } from "react";
 // import html5 from "../html5.png";
@@ -10,20 +10,23 @@ import react from "../logo.svg";
 // import css3 from "../css3.png"
 
 const Experience = () => {
-  // useEffect(() => {
-  //   Aos.init({ duration: 2000 });
-  // }, []);
+  Aos.init({ duration: 2000 });
+  Aos.refresh();
+
   return (
     <div id="experience" className="experience">
       <div className="d-flex justify-content-center my-5">
-        <h1>Experience</h1>
+        <h1 data-aos="fade-up">Experience</h1>
       </div>
       <div className="container experience-wrapper">
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3> React Application (September 2021 – Working)</h3>
-            <p className="firstjob">
+            <h3 data-aos="fade-left">
+              {" "}
+              React Application (September 2021 – Working)
+            </h3>
+            <p data-aos="fade-left" className="firstjob">
               <br></br>● Fresher in React Developer with hands-on experience in
               identifying web-based user interactions along with designing &
               implementing highly-responsive user interface components by
@@ -45,7 +48,7 @@ const Experience = () => {
           </div>
         </div>
         <img
-          // data-aos="fade-right"
+          data-aos="fade-right"
           className="react-img"
           src={react}
           alt="react"
@@ -54,8 +57,8 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content ">
-            <h3>JavaScript (Jun 2021 – August 2021)</h3>
-            <p className="secondjob">
+            <h3 data-aos="fade-right">JavaScript (Jun 2021 – August 2021)</h3>
+            <p data-aos="fade-right" className="secondjob">
               <br></br>● Fresher in JavaScript Developer with necessary
               perception and heavily Knowledge of javascript.
               <br></br>● Worked on a weather App Using Javascript features, the
@@ -77,7 +80,7 @@ const Experience = () => {
           </div>
         </div>
         <img
-          // data-aos="fade-left"
+          data-aos="fade-left"
           className="js-img timeline-block timeline-block-right"
           src={js}
           alt="JavaScript"
@@ -86,8 +89,8 @@ const Experience = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3> HTML and CSS (March 2021 - May 2021)</h3>
-            <p className="thirdjob">
+            <h3 data-aos="fade-left"> HTML and CSS (March 2021 - May 2021)</h3>
+            <p data-aos="fade-left" className="thirdjob">
               <br></br>● Created a simple yet very useful and well-maintained
               site is developed with HTML tags. The whole project is designed in
               HTML ,CSS and JavaScript language.
