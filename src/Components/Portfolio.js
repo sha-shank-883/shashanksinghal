@@ -179,7 +179,7 @@ const Portfolio = () => {
     const content = (
       <>
         <img
-          data-aos="fade-up"
+          // data-aos="fade-up"
           className="portfolio-image-popupbox"
           src={Capture15}
           alt="Todo App"
@@ -276,7 +276,12 @@ const Portfolio = () => {
         <h1 className="text-uppercase text-center py-5">Portfolio</h1>
         <div className="image-box-wrapper row justify-content-center ">
           {/* first project */}
-          <Carousel infiniteLoop width={"90%"}>
+          <Carousel
+            infiniteLoop={true}
+            autoPlay={true}
+            interval={2000}
+            width={"90%"}
+          >
             <div
               // data-aos="fade-up"
               className="portfolio-image-box"
@@ -287,7 +292,7 @@ const Portfolio = () => {
                 src={Capture1}
                 alt="React-app Project"
               />
-              <p className="legend">React-App</p>
+              {/* <p className="legend">React-App</p> */}
 
               <div className="overflow"></div>
               <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
@@ -304,7 +309,7 @@ const Portfolio = () => {
                 src={Capture4}
                 alt="university-website Project"
               />
-              <p className="legend">University Website </p>
+              {/* <p className="legend">University Website </p> */}
               <div className="overflow"></div>
               <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
             </div>
@@ -320,7 +325,7 @@ const Portfolio = () => {
                 src={Capture13}
                 alt="weather-app Project"
               />
-              <p className="legend">Weather-App</p>
+              {/* <p className="legend">Weather-App</p> */}
               <div className="overflow"></div>
               <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
             </div>
@@ -336,7 +341,7 @@ const Portfolio = () => {
                 src={Capture15}
                 alt="weather-app Project"
               />
-              <p className="legend">Todo-App</p>
+              {/* <p className="legend">Todo-App</p> */}
               <div className="overflow"></div>
               <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
             </div>
@@ -352,7 +357,7 @@ const Portfolio = () => {
                 src={Calculator}
                 alt="weather-app Project"
               />
-              <p className="legend">Calculator</p>
+              {/* <p className="legend">Calculator</p> */}
               <div className="overflow"></div>
               <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
             </div>
