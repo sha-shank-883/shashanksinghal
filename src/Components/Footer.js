@@ -34,7 +34,7 @@ const Footer = () => {
             <div className="row">
               <div className="col">
                 <Link
-                  data-aos="fade-"
+                  data-aos="fade-up"
                   smooth={true}
                   to="home"
                   className="footer-nav"
@@ -45,7 +45,7 @@ const Footer = () => {
                 <br />
 
                 <Link
-                  data-aos="fade-"
+                  data-aos="fade-up"
                   smooth={true}
                   to="about"
                   className="footer-nav"
@@ -56,7 +56,7 @@ const Footer = () => {
                 <br />
 
                 <Link
-                  data-aos="fade-"
+                  data-aos="fade-up"
                   smooth={true}
                   to="experience"
                   className="footer-nav"
@@ -67,7 +67,7 @@ const Footer = () => {
               </div>
               <div className="col">
                 <Link
-                  data-aos="fade-"
+                  data-aos="fade-up"
                   smooth={true}
                   to="portfolio"
                   className="footer-nav"
@@ -78,7 +78,7 @@ const Footer = () => {
                 <br />
 
                 <Link
-                  data-aos="fade-"
+                  data-aos="fade-up"
                   smooth={true}
                   to="contact"
                   className="footer-nav"
@@ -91,9 +91,9 @@ const Footer = () => {
           </div>
           <div className="social-icons col-lg-5 col-md-5 col-sm-6 align-items-center">
             <div className=" Social-id d-flex justify-content-right">
-              <div data-aos="fade-up" className="contact-linkedin">
+              <div data-aos="zoom-in" className="contact-linkedin">
                 <SocialIcon
-                  data-aos="fade-up"
+                  data-aos="zoom-in"
                   target="_blank"
                   url="https://www.linkedin.com/in/shashank-singhal-"
                   fgColor="white"
@@ -109,7 +109,7 @@ const Footer = () => {
                 </a>
               </div>
 
-              <div data-aos="fade-up" className="contact-github">
+              <div data-aos="zoom-in" className="contact-github">
                 <SocialIcon
                   target="_blank"
                   url="https://github.com/sha-shank-883"
@@ -126,7 +126,7 @@ const Footer = () => {
                 </a>
               </div>
 
-              <div data-aos="fade-up" className="contact-facebook">
+              <div data-aos="zoom-in" className="contact-facebook">
                 <SocialIcon
                   target="_blank"
                   url="https://www.facebook.com/profile.php?id=100009010986550"
@@ -142,7 +142,7 @@ const Footer = () => {
                   Facebook
                 </a>
               </div>
-              <div data-aos="fade-up" className="contact-instagram">
+              <div data-aos="zoom-in" className="contact-instagram">
                 <SocialIcon
                   target="_blank"
                   url="https://www.instagram.com/shashank_singhal_883/"
@@ -159,7 +159,7 @@ const Footer = () => {
                 </a>
               </div>
 
-              <div data-aos="fade-up" className="contact-twitter">
+              <div data-aos="zoom-in" className="contact-twitter">
                 <SocialIcon
                   target="_blank"
                   url="https://twitter.com/shashan23126715?t=yPf4uIHXLrgxc2sRK0Hj5Q&s=08"
