@@ -316,6 +316,7 @@ nav ul li {
   padding: 0 0.9375rem;
   color: var(--primary-dark-gray);
   direction: ltr;
+  text-align: center;
 }
 
 .timeline-content h3 {
