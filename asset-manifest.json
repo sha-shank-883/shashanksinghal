@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shashanksinghal/static/css/main.8ae67e88.css",
-    "main.js": "/shashanksinghal/static/js/main.547d5c57.js",
+    "main.js": "/shashanksinghal/static/js/main.65b1d071.js",
     "static/js/27.69e905dd.chunk.js": "/shashanksinghal/static/js/27.69e905dd.chunk.js",
     "static/media/Me.jpg": "/shashanksinghal/static/media/Me.ceedadd4513ad251a79b.jpg",
     "static/media/Htmlnew.glb": "/shashanksinghal/static/media/Htmlnew.76d6498e2f13a809615d.glb",
@@ -19,6 +19,6 @@
   },
   "entrypoints": [
     "static/css/main.8ae67e88.css",
-    "static/js/main.547d5c57.js"
+    "static/js/main.65b1d071.js"
   ]
 }
