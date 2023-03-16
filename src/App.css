@@ -202,6 +202,7 @@ nav ul li {
 }
 .about-heading {
   color: var(--primary-orange);
+  text-align: center;
   text-transform: uppercase;
 }
 
