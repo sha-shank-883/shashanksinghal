@@ -69,7 +69,7 @@ const Header = () => {
                 default: "bounce",
               },
               random: false,
-              speed: 3,
+              speed: 2.5,
               straight: false,
             },
             number: {
