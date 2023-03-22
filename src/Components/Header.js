@@ -7,12 +7,12 @@ import { loadFull } from "tsparticles";
 
 const Header = () => {
   const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
+    // console.log(engine);
     await loadFull(engine);
   }, []);
 
   const particlesLoaded = useCallback(async (container) => {
-    await console.log(container);
+    // await console.log(container);
   }, []);
 
   return (
@@ -22,7 +22,7 @@ const Header = () => {
         init={particlesInit}
         loaded={particlesLoaded}
         options={{
-          fpsLimit: 220,
+          fpsLimit: 60,
           interactivity: {
             events: {
               onClick: {
@@ -45,6 +45,9 @@ const Header = () => {
               },
             },
           },
+          style: {
+            position: "absolute",
+          },
           particles: {
             color: {
               value: "#f9ab00",
@@ -57,7 +60,7 @@ const Header = () => {
               width: 1,
             },
             collisions: {
-              enable: false,
+              enable: true,
             },
             move: {
               directions: "none",
@@ -66,7 +69,7 @@ const Header = () => {
                 default: "bounce",
               },
               random: false,
-              speed: 4,
+              speed: 3,
               straight: false,
             },
             number: {

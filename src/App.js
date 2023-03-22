@@ -1,16 +1,19 @@
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 // import { useCallback } from "react";
 // import Particles from "react-tsparticles";
 // import { loadFull } from "tsparticles";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 // import Particles from "react-tsparticles";
+import Experience from "./Components/Experience";
 import Navbar from "./Components/Navbar";
 import Header from "./Components/Header";
 import Aboutme from "./Components/Aboutme";
-import Experience from "./Components/Experience";
 import Portfolio from "./Components/Portfolio";
-import Form from "./Components/Contact";
+// import Form from "./Components/Contact";
+import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+
 // import Aos from "aos";
 // import "aos/dist/aos.css";
 // import { useEffect } from "react";
@@ -35,12 +38,7 @@ function App() {
         init={particlesInit}
         loaded={particlesLoaded}
         options={{
-          background: {
-            color: {
-              value: "#0d47a1",
-            },
-          },
-          fpsLimit: 120,
+          fpsLimit: 60,
           interactivity: {
             events: {
               onClick: {
@@ -58,14 +56,14 @@ function App() {
                 quantity: 4,
               },
               repulse: {
-                distance: 200,
+                distance: 100,
                 duration: 0.4,
               },
             },
           },
           particles: {
             color: {
-              value: "#ffffff",
+              value: "#f9ab00",
             },
             links: {
               color: "#ffffff",
@@ -84,13 +82,13 @@ function App() {
                 default: "bounce",
               },
               random: false,
-              speed: 6,
+              speed: 3,
               straight: false,
             },
             number: {
               density: {
                 enable: true,
-                area: 800,
+                area: 1300,
               },
               value: 80,
             },
@@ -107,6 +105,7 @@ function App() {
           detectRetina: true,
         }}
       /> */}
+
       {/* <Particles
         className="particles-canvas"
         params={{
@@ -137,8 +136,8 @@ function App() {
       {/* <ThreeScene /> */}
       <Portfolio />
       {/* <Slide/> */}
-      {/* <Contact/> */}
-      <Form />
+      <Contact />
+      {/* <Form /> */}
       <Footer />
     </>
   );
