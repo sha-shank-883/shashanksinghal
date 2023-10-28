@@ -125,8 +125,10 @@ const Header = () => {
             "CSS",
             "JAVASCRIPT",
             "REACTJS",
+            "PHP",
             "NODEJS",
             "MONGODB",
+            "SQL",
           ]}
           typeSpeed={50}
           backSpeed={30}
