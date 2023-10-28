@@ -39,7 +39,7 @@ const AboutMe = () => {
             unequivocal love for making things, and my mission-driven work ethic
             to literally change the world. That's why I’m excited to make a big
             impact at a high growth company. <br></br>
-            <a href="Shashank_Resume.pdf" download="Shashank_Resume.pdf">
+            <a href="Resume.pdf" download="Resume.pdf">
               <button data-aos="fade-up" className="btn-about-heading">
                 {" "}
                 Get Resume
