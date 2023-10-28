@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shashanksinghal/static/css/main.53d8f36d.css",
-    "main.js": "/shashanksinghal/static/js/main.85979a39.js",
+    "main.js": "/shashanksinghal/static/js/main.372d0b32.js",
     "static/js/27.69e905dd.chunk.js": "/shashanksinghal/static/js/27.69e905dd.chunk.js",
     "static/media/Me.jpg": "/shashanksinghal/static/media/Me.ceedadd4513ad251a79b.jpg",
     "static/media/Htmlnew.glb": "/shashanksinghal/static/media/Htmlnew.76d6498e2f13a809615d.glb",
@@ -9,7 +9,7 @@
     "static/media/Capture13.JPG": "/shashanksinghal/static/media/Capture13.c05231a28ff1e65b261f.JPG",
     "static/media/Calculator.jpg": "/shashanksinghal/static/media/Calculator.8d2b27d4ef913d01d976.jpg",
     "static/media/Capture15.JPG": "/shashanksinghal/static/media/Capture15.2085bb91fe8a5280e9e6.JPG",
-    "static/media/logo7.svg": "/shashanksinghal/static/media/logo7.7ea2d17a35e40fee65fd8437570f2b0c.svg",
+    "static/media/logo7.svg": "/shashanksinghal/static/media/logo7.e0fb6511d084e4c124c3a509517b1222.svg",
     "static/media/Capture4.JPG": "/shashanksinghal/static/media/Capture4.4ae43164dc9bb1cc11fa.JPG",
     "static/media/bg-1.jpg": "/shashanksinghal/static/media/bg-1.ff802ca531e9bec4674d.jpg",
     "static/media/Capture1.JPG": "/shashanksinghal/static/media/Capture1.2d65ef328475fd446157.JPG",
@@ -19,6 +19,6 @@
   },
   "entrypoints": [
     "static/css/main.53d8f36d.css",
-    "static/js/main.85979a39.js"
+    "static/js/main.372d0b32.js"
   ]
 }
