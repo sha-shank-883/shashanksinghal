@@ -7,6 +7,8 @@ import Capture4 from "../Capture4.JPG";
 import Capture13 from "../Capture13.JPG";
 import Calculator from "../Calculator.jpg";
 import Capture15 from "../Capture15.JPG";
+import mechatlogin from "../mechatlogin.png";
+import mechatinner from "../mechatinner.png";
 // FONT AWESOME
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -70,6 +72,54 @@ const Portfolio = () => {
     fadeIn: true,
     fadeInSpeed: 500,
   };
+
+  // Chat Application
+  const openPopupboxChatApp = () => {
+    const content = (
+      <>
+        <img
+          data-aos="fade-up"
+          className="portfolio-image-popupbox"
+          src={mechatinner}
+          alt="UniversityWebsite Application"
+        />
+        <p className="popup-desc">
+          A chat application using the MERN stack (MongoDB, Express, React, Node.js) featuring active sign-up, login, and logout functionality. The application supports real-time messaging, ensuring seamless communication between users. It also displays timestamps for each message, enhancing the chat experience. This project demonstrates my proficiency in full-stack development and real-time web applications.
+        </p>
+        {/* <b>Netlify:</b><a className = "hyper-link" onClick = {() => window.open("https://tenanttruths.netlify.app/")}>https://tenanttruths.netlify.app/</a> */}
+        <b className="link-desc">University-Wesite : </b>{" "}
+        <a
+          className="hyper-link"
+          onClick={() =>
+            window.open("https://me-chat-web.netlify.app/")
+          }
+        >
+          https://me-chat-web.netlify.app/
+        </a>
+        <br></br>
+        <b className="link-desc">GitHub : </b>{" "}
+        <a
+          className="hyper-link"
+          onClick={() =>
+            window.open("https://github.com/sha-shank-883/Chat-App")
+          }
+        >
+          https://github.com/sha-shank-883/Chat-App
+        </a>
+      </>
+    );
+    PopupboxManager.open({ content });
+  };
+
+  const popupboxConfigChatApp = {
+    titleBar: {
+      enable: false,
+      // text: "UniversityWebsite"
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+  };
+
 
   // UniversityWebsite
   const openPopupboxUniversityWebsite = () => {
@@ -314,6 +364,22 @@ const Portfolio = () => {
               <div className="overflow"></div>
               <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
             </div>
+             {/* Chat project */}
+            <div
+              data-aos="fade-up"
+              className="portfolio-image-box"
+              onClick={openPopupboxChatApp}
+            >
+              <img
+                className="portfolio-image"
+                src={mechatlogin}
+                alt="university-website Project"
+              />
+              {/* <p className="legend">University Website </p> */}
+              <div className="overflow"></div>
+              <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+            </div>
+            {/* chat project */}
             {/* third project */}
 
             <div
@@ -366,7 +432,7 @@ const Portfolio = () => {
         </div>
       </div>
       <PopupboxContainer {...popupboxConfigReactWebsite} />
-      <PopupboxContainer {...popupboxConfigUniversityWebsite} />
+      <PopupboxContainer {...popupboxConfigChatApp} />
       <PopupboxContainer {...popupboxConfigWeatherApp} />
       <PopupboxContainer {...popupboxConfigCapture15} />
       <PopupboxContainer {...popupboxConfigCapture14} />

@@ -487,8 +487,11 @@ nav ul li {
 }
 .popup-desc {
   width: 45rem;
-  font-size: 0.7rem;
+  /* font-size: 0.7rem; */
   overflow-wrap: break-word;
+  padding: 15px 0px 0px 10px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .hyper-link {
